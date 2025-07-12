@@ -1,11 +1,10 @@
 # a2sv-web-track-task-1
 
-
 # Todo List App
 
 ## Description
 
-This Todo List application is a simple yet functional web app built using HTML, CSS, and JavaScript. It allows users to create, edit, and delete tasks, providing an efficient way to manage daily activities. The app is designed to enhance your skills in JavaScript, project management, and collaboration.
+This Todo List application is a simple yet functional web app built using HTML, CSS, and TypeScript. It allows users to create, edit, and delete tasks, providing an efficient way to manage daily activities.n.
 
 ## Features
 
@@ -25,9 +24,19 @@ This Todo List application is a simple yet functional web app built using HTML, 
    cd a2sv-web-track-task-1
    ```
 
-3. **Open the HTML File**: Open `index.html` in your web browser to view the application.
+3. **Install TypeScript**: Make sure you have TypeScript installed. You can install it globally using npm:
+   ```bash
+   npm install -g typescript
+   ```
 
-4. **Usage**:
+4. **Compile TypeScript**: Compile the TypeScript file (`todo.ts`) to JavaScript using the following command:
+   ```bash
+   tsc todo.ts
+   ```
+
+5. **Open the HTML File**: Open `index.html` in your web browser to view the application.
+
+6. **Usage**:
    - Type a task in the input field and click the "Add Task" button to add it to the list.
    - Click "edit" next to any task to modify it.
    - Click "remove" to delete a task from the list.
@@ -35,16 +44,21 @@ This Todo List application is a simple yet functional web app built using HTML, 
 ## Project Structure
 
 ```
-todo-app/
+a2sv-web-track-task-1/
 ├── index.html
 ├── style.css
-└── script.js
+└── todo.ts
+
 ```
 
 - **index.html**: The main HTML file that contains the structure of the application.
 - **style.css**: The CSS file for styling the application.
-- **script.js**: The JavaScript file that handles the functionality of adding, editing, and removing tasks.
+- **todo.ts**: The TypeScript file that handles the functionality of adding, editing, and removing tasks.
 
+## TypeScript Details
+
+- The interface `Task` is defined to ensure that each task object has a consistent structure with an `id` and `task` property.
+- Type assertions (e.g., `as HTMLElement`) are used for better TypeScript type safety when selecting DOM elements.
 
 ## Screenshot
 
