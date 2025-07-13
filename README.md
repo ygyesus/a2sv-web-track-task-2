@@ -16,12 +16,12 @@ This Todo List application is a simple yet functional web app built using HTML, 
 
 1. **Clone the Repository**: Clone this repository to your local machine using the command:
    ```bash
-   git clone https://github.com/ygyesus/a2sv-web-track-task-1.git
+   git clone https://github.com/ygyesus/a2sv-web-track-task-2.git
    ```
 
 2. **Navigate to the Directory**: Change into the project directory:
    ```bash
-   cd a2sv-web-track-task-1
+   cd a2sv-web-track-task-2
    ```
 
 3. **Install TypeScript**: Make sure you have TypeScript installed. You can install it globally using npm:
